@@ -7,10 +7,12 @@ This code just gives a certain font to the page and keeps the image at a consist
 */
 
 * {
-    font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif
+  font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 }
 
 img {
-    height: 200px;
-    width: 300px;
+  height: 300px;
+  width: 200px;
+  transform: rotate(-90deg);
+  padding: 1.5em;
 }
